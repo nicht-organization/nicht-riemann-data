@@ -1,8 +1,19 @@
 {
-    "project": "nicht-riemann-data",
-    "purpose": "reproducible empirical benchmark for Riemann zeta zero data",
-    "status": "experimental",
-    "raw_data": [],
-    "derived_data": [],
-    "claims": []
+  "project": "nicht-riemann-data",
+  "status": "experimental",
+  "datasets": {
+    "odlyzko_zeros1": {
+      "source": "A. M. Odlyzko",
+      "source_file": "zeros1",
+      "url": "https://www-users.cse.umn.edu/~odlyzko/zeta_tables/zeros1",
+      "local_file": "data/raw/zeros1",
+      "records": 100000,
+      "representation": "one decimal value per line",
+      "quantity": "imaginary parts gamma_n of nontrivial zeta zeros",
+      "first_value": 14.134725142,
+      "last_value": 74920.827498994,
+      "raw_bytes": 1800000,
+      "sha256": "3436c916a7878261ac183fd7b9448c9a4736b8bbccf1356874a6ce1788541632"
+    }
   }
+}
