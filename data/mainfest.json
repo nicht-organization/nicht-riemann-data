@@ -1,0 +1,8 @@
+{
+    "project": "nicht-riemann-data",
+    "purpose": "reproducible empirical benchmark for Riemann zeta zero data",
+    "status": "experimental",
+    "raw_data": [],
+    "derived_data": [],
+    "claims": []
+  }
